@@ -1,0 +1,17 @@
+{
+  "name": "stream1band",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ChemicalDruid"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ChemicalDruid/Stream1Band",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
