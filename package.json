@@ -1,0 +1,19 @@
+{
+  "name": "stream1band",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChemicalDruid/Stream1Band.git"
+  },
+  "author": "ChemicalDruid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChemicalDruid/Stream1Band/issues"
+  },
+  "homepage": "https://github.com/ChemicalDruid/Stream1Band#readme"
+}
