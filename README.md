@@ -8,9 +8,11 @@ This is my Stream 1 project output. It implements a 20th century rock band websi
 
 ### What does it do?
 
+Users of this website can experience The Monkees through audio, video abd photos. They can also review upcoming events, request new event bookings and follow The Monkees in available social media.
 
 ### How does it work
 
+AngularJS is used to bind the view and control behaviour behind the DOM to data. Page styling uses Bootstrap and Flexbox.
 
 ## Features
 
@@ -18,7 +20,14 @@ This is my Stream 1 project output. It implements a 20th century rock band websi
 - None yet!
 
 ### Features Left to Implement
-- Plenty!
+- View photos of band members
+- Watch video clips
+- Listen to audio clips
+- View upcoming events
+- Request event bookings for weddings, Christmas parties etc.
+- Connect via Facebook, Twitter and Youtube
+- Contact them directly via phone, email and Skype
+- Experience responsive design with smartphone and tablet use in mind
  
 ## Tech Used
 
