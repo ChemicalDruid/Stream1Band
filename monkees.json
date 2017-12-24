@@ -1,19 +1,19 @@
 [
 	{ 
 		"title" : "Davy Jones",
-		"image" : "/media/img/dj.jpg"
+		"image" : "media/img/dj.jpg"
 	},
 	{ 
 		"title" : "Micky Dolenz",
-		"image" : "/media/img/md.jpg"
+		"image" : "media/img/md.jpg"
 	},
 	{ 
 		"title" : "Michael Nesmith",
-		"image" : "/media/img/mn.jpg"
+		"image" : "media/img/mn.jpg"
 	},
 	{ 
 		"title" : "Peter Tork",
-		"image" : "/media/img/pt.jpg"
+		"image" : "media/img/pt.jpg"
 	},
 	{
 		"title" : "The Monkees in 1966",
