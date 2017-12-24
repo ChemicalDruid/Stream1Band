@@ -1,0 +1,1044 @@
+.home {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    line-height: 0;
+}
+
+.home .header {
+    height: 30em;
+    background: url("/media/img/rock-stage.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+}
+
+.home .header .container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 30em;
+    text-align: center;
+}
+
+.home .header h1 {
+    flex: 2;
+    font-size: 6em;
+    line-height: 120px;
+    color: #f00;
+    text-transform: uppercase;
+    position: relative;
+    top: 25px;
+    animation: fadeinlarge 2s ease forwards;
+    -webkit-animation: fadeinlarge 2s ease forwards;
+    -moz-animation: fadeinlarge 2s ease forwards;
+    -o-animation: fadeinlarge 2s ease forwards;
+}
+
+.home .header p {
+    flex: 1;
+    font-size: 1em;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    color: #f00;
+    animation: fadeintiny 3s forwards;
+    -webkit-animation: fadeintiny 3s forwards;
+    -moz-animation: fadeintiny 3s forwards;
+    -o-animation: fadeintiny 3s forwards;
+}
+
+.home .header .btn-music {
+    margin-top: 0;
+    margin-bottom: 25px;
+    position: relative;
+    bottom: 25px;
+}
+
+.home .header .btn-book {
+    position: relative;
+    bottom: 15px;
+}
+
+@keyframes fadeinlarge {
+    0% {
+        font-size: 3vw;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeinlarge {
+    0% {
+        font-size: 3vw;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeinlarge {
+    0% {
+        font-size: 3vw;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeinlarge {
+    0% {
+        font-size: 3vw;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeintiny {
+    0% {
+        font-size: 0.2em;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeintiny {
+    0% {
+        font-size: 0.2em;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeintiny {
+    0% {
+        font-size: 0.2em;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeintiny {
+    0% {
+        font-size: 0.2em;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.home .main {
+    background-color: #000;
+    background: url(/media/img/wooden-pier.png) center fixed;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    margin-bottom: 0;
+}
+
+.home .main h1 {
+    font-size: 2.5em;
+}
+
+.home .main p {
+    margin-bottom: 25px;
+}
+
+.home .main audio {
+    width: 60%;
+}
+
+.music {
+    overflow: hidden;
+}
+
+.music .music-top {
+    background: url("/media/img/record-deck.png") center;
+    background-size: cover;
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.music .header h1 {
+    text-align: center;
+    font-family: Roboto, sans-serif, monospace;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 5em;
+    position: relative;
+    top: 30px;
+    color: #fff;
+}
+
+.abouttitle {
+    margin-top: 100px;
+}
+
+.music .header h4 {
+    font-family: Roboto, sans-serif, monospace;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+    color: #fff;
+}
+
+.music .music-top .about-buttons {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.music .music-top .about-buttons #about-btn {
+    margin: 10px;
+    padding: 15px 30px;
+}
+
+.music .paragraph {
+    color: #000;
+    font-family: Roboto, sans-serif, monospace;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: 40px auto;
+
+}
+
+.music .paragraph p {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.music .bigbar {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: sans-serif, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.music .bigbar .nav-tabs > li {
+    zoom: 1.8;
+}
+
+.music .bigbar .nav-tabs > li > a {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+
+.music .bigbar .nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #fff;
+    background-color: #382f2b;
+}
+
+.music .bigbar .nav-tabs a {
+    color: #000;
+}
+
+.music .bigbar .tab-pane {
+    margin-top: 0;
+}
+
+.music .tab-content {
+    text-align: center;
+    font-family: sans-serif, monospace;
+}
+
+.music .tab-content h1 {
+    font-size: 4em;
+    color: #000;
+}
+
+.music .tab-content p {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+#video {
+    background: url(/media/img/spotlight.png) center center fixed;
+    background-size: cover;
+    color: #000;
+    padding: 10px 0 10px 0;
+}
+
+#video iframe {
+    margin: 40px auto;
+    display: block;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 4px solid black;
+}
+
+#video iframe:first-of-type {
+    margin-top: 100px;
+}
+
+#video .ytplug {
+    background: url(/media/img/yt.jpg) center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    margin: 20px auto;
+    opacity: 0.5;
+}
+
+#video .ytplug:hover {
+    opacity: 1;
+}
+
+#photos .photogrid {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#photos .photogrid img {
+    height: 250px;
+    width: 290px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    margin: 20px;
+}
+
+.image-page {
+    text-align: center;
+}
+
+.image-page img {
+    margin: 100px auto 20px auto;
+    height: auto;
+    width: 60%;
+    display: block;
+}
+
+.image-page h3 {
+    font-family: sans-serif, monospace;
+    margin-bottom: 30px;
+}
+
+.image-page a {
+    margin-bottom: 40px;
+}
+
+.gigs {
+    background: url("/media/img/handsbackground.jpg") center fixed;
+    background-size: cover;
+}
+
+.gigs .header {
+    text-align: center;
+    font-family: Roboto, sans-serif, monospace;
+    color: #c8f;
+    position: relative;
+    top: 90px;
+}
+
+.gigs .header h1 {
+    font-size: 10.5vw;
+}
+
+.gigs .header #subhead {
+    margin-bottom: 100px;
+    font-size: 1.5em;
+}
+
+.gigs .header .book {
+    margin-bottom: 200px;
+}
+
+.gigs .calendar {
+    margin: 100px 100px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+}
+
+.gigs .calendar .box {
+    width: 23%;
+    height: 300px;
+    margin: 20px 20px;
+    border: 6px solid #c080f0;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    text-align: center;
+}
+
+.gigs .calendar .box a {
+    height: 300px;
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    text-decoration: none !important;
+}
+
+.gigs .calendar .box .date {
+    background-color: #c080f0;
+    color: #ffe;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-family: sans-serif, monospace;
+    transition: 1s;
+}
+
+.gigs .calendar .box .date h3 {
+    font-size: 2vw;
+}
+
+.gigs .calendar .box a:hover .date {
+    color: #b080f0;
+    background-color: #ffe;
+}
+
+.gigs .calendar .box .where {
+    flex: 2;
+    font-family: sans-serif, monospace;
+    font-size: 5px;
+    color: #001;
+    background-color: #ffe;
+    transition: 1s;
+}
+
+.gigs .calendar .box .where h2 {
+    font-size: 2vw;
+}
+
+.gigs .calendar .box .when {
+    font-family: sans-serif, monospace;
+    color: black;
+    background-color: #d0e0f0;
+    flex: 1;
+    border:;
+    border-radius: 0 0 25px 25px;
+    -webkit-border-radius: 0 0 25px 25px;
+    -moz-border-radius: 0 0 25px 25px;
+    position: relative;
+    bottom: 10px;
+}
+
+#gigs-end {
+    font-family: Roboto, sans-serif, monospace;
+    text-align: center;
+    color: #ffe;
+    font-size: 1.5em;
+}
+
+#gigs-end a {
+    margin-bottom: 100px;
+}
+
+.event {
+    background: url(/media/img/handsbackground.jpg) center;
+    background-size: cover;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.event .details {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    width: 60%;
+    margin: 100px 100px;
+    padding: 20px;
+}
+
+.event .details .note {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    color: #001;
+    max-width: 280px;
+    border: 6px solid #c080f0;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    text-align: center;
+    margin: 24px;
+}
+
+.event .details .note .when {
+    font-family: sans-serif, monospace;
+    background-color: #c080f0;
+    color: #ffe;
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+}
+
+.event .details .note .where {
+    font-family: sans-serif, monospace;
+    background-color: #fff;
+    color: #001;
+    flex: 2;
+}
+
+.event .details .note .where h1 {
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.event .details .note .time {
+    font-family: sans-serif, monospace;
+    color: #001;
+    background-color: #d0e0f0;
+    border-radius: 0 0 25px 25px;
+    -webkit-border-radius: 0 0 25px 25px;
+    -moz-border-radius: 0 0 25px 25px;
+}
+
+.event .details .map iframe {
+    width: 250px;
+    height: 290px;
+    border: 6px solid white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    margin: 20px;
+}
+
+.event .details .plugs {
+    text-align: center;
+    color: #c8f;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event .details .plugs .plug {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.event .details .plugs .plug div {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    margin: 10px 5px;
+}
+
+.event .details .plugs .plug #fb {
+    background: url(/media/img/facebook.png) center;
+    background-size: contain;
+}
+
+.event .details .plugs .plug #twit {
+    background: url(/media/img/twitter.png) center;
+    background-size: contain;
+}
+
+.contact {
+    height: 100%;
+}
+
+.contact .header {
+    height: 98vh;
+    background: url(/media/img/contact-form-background.png) center fixed;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact .header h1 {
+    font-size: 10vw;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif, monospace;
+    flex: 1;
+    position: relative;
+    top: 90px;
+    margin-bottom: 50px;
+}
+
+.contact .header p {
+    font-size: 2vw;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif, monospace;
+    flex: 1;
+}
+
+.contact .header .links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 60px;
+}
+
+.contact .header .links div {
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    transition: 0.3s;
+}
+
+.contact #facebook {
+    background: url(/media/img/big-facebook.png) center;
+    background-size: cover;
+}
+
+.contact #facebook:hover {
+    background: url(/media/img/invertfb.png) center;
+    background-size: cover;
+}
+
+.contact #twitter {
+    background: url(/media/img/big-twitter.png) center;
+    background-size: cover;
+}
+
+.contact #twitter:hover {
+    background: url(/media/img/inverttwit.png) center;
+    background-size: cover;
+}
+
+.contact #google {
+    background: url(/media/img/big-google.png) center;
+    background-size: cover;
+}
+
+.contact #google:hover {
+    background: url(/media/img/invertgp.png) center;
+    background-size: cover;
+}
+
+.contact #youtube {
+    background: url(/media/img/invertyt.png) center;
+    background-size: cover;
+}
+
+.contact #youtube:hover {
+    background: url(/media/img/big-youtube2.png) center;
+    background-size: cover;
+}
+
+.contact .mid-section {
+    background: url(/media/img/contact-form-background.png) center fixed;
+    background-size: cover;
+}
+
+.contact .mid-section .plugs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact .mid-section .plugs .bookbox {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    height: 400px;
+    max-width: 30%;
+    text-align: center;
+    font-family: Roboto, sans-serif, monospace;
+    margin: 50px auto;
+    color: #fff;
+}
+
+.contact .mid-section .plugs .bookbox h1 {
+    font-size: 3vw;
+}
+
+.contact .mid-section .plugs .bookbox p {
+    max-width: 90%;
+    font-size: 1.6vw;
+}
+
+.contact .mid-section .plugs .bookbox {
+    background: url(/media/img/bgmike.jpg) center;
+    background-size: cover;
+    color: #fff;
+}
+
+.contact .direct {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: url(/media/img/contact-form-background.png) center fixed;
+    background-size: cover;
+    height: 300px;
+}
+
+.contact .direct #phone, #skype, #emailcirc {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact .direct div p {
+    font-family: sans-serif, monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact .direct #phone #phonecirc, #skype #skypecirc, #emailcirc #emailcircdiv {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+#phone #phonecirc {
+    background: url(/media/img/call-answer.png) center;
+    background-size: cover;
+}
+
+#skype #skypecirc {
+    background: url(/media/img/skypewhite.png) center;
+    background-size: cover;
+}
+
+#emailcirc #emailcircdiv {
+    background: url(/media/img/at-sign.png) center;
+    background-size: cover;
+}
+
+.book .page {
+    width: 100%;
+    background: url(/media/img/bgbook.jpg) center center;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.book .book-intro {
+    text-align: center;
+    color: #000;
+    font-family: sans-serif, monospace;
+}
+
+.book .book-intro #discount {
+    font-size: 15px;
+    color: #000;
+    letter-spacing: 4px;
+}
+
+.book .book-intro h1 {
+    font-size: 3.5em;
+}
+
+.book .book-intro p {
+    font-size: 1.5em;
+}
+
+.book #container {
+    width: 650px;
+    margin: 10px auto 150px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 25px 25px 50px 25px;
+    position: relative;
+    top: 0;
+    font-family: Roboto, sans-serif, monospace;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.book #container:hover {
+    opacity: 1.0;
+}
+
+.book fieldset {
+    padding: 15px;
+}
+
+.book .names {
+    margin-bottom: 10px;
+}
+
+.book .contacts {
+    margin-bottom: 20px;
+}
+
+.book .event1 {
+    margin-bottom: 20px;
+}
+
+.book .event2 {
+    margin-bottom: 20px;
+}
+
+.book .radio {
+    color: #fff;
+}
+
+.book #submit {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book form#BookForm .alert {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: -20px !important;
+    padding: 10px 10px;
+}
+
+.book form#BookForm .alert div {
+    width: 270px !important;
+}
+
+.confirm .bookconfirm {
+    background: url(/media/img/book-background2.jpeg) center center;
+}
+
+.confirm .header {
+    font-family: sans-serif, monospace;
+    text-align: center;
+    background-color: #c0c0c0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.confirm .header h1 {
+    font-size: 13vw;
+    animation: bigconfirm 2s forwards;
+    -webkit-animation: bigconfirm 2s forwards;
+    -moz-animation: bigconfirm 2s forwards;
+    -o-animation: bigconfirm 2s forwards;
+}
+
+.confirm .confirm-body {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-family: sans-serif, monospace;
+    color: #fff;
+}
+
+.confirm .confirm-body a {
+    margin-top: 20px;
+}
+
+.confirm .confirm-body h3 a.music-link:hover {
+    text-decoration: none;
+}
+
+@keyframes bigconfirm {
+    0% {
+        font-size: 0;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes bigconfirm {
+    0% {
+        font-size: 0;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes bigconfirm {
+    0% {
+        font-size: 0;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes bigconfirm {
+    0% {
+        font-size: 0;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.navbar-default {
+    background-color: #fff;
+    opacity: 0.5;
+    border-color: rgba(34, 34, 34, 0.05);
+    font-family: sans-serif, monospace;
+    color: #222222;
+}
+
+.navbar-default:hover {
+    opacity: 0.8;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+
+.navbar-default .nav > li > a {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.navbar-default .nav > li > a:last-child {
+    padding-right: 20px;
+}
+
+.navbar-default .nav > li > a:hover {
+    font-weight: 600;
+}
+
+.navbar-default .dropdown {
+    cursor: pointer;
+}
+
+.navbar-default .dropdown:hover .dropdown-menu {
+    display:block;
+}
+
+.navbar-default .dropdown.open .dropdown-menu li a:hover {
+    font-weight: 600
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    background-color: #070b0b;
+    width: 100%;
+    border-top: 5px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.footer .container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.footer .oursocial {
+    flex: 1;
+    height: 80px;
+}
+
+.footer .ourmusic {
+    flex: 1;
+    height: 80px;
+}
+
+.footer .itunes {
+    text-align: center;
+}
+
+.footer p {
+    color: #fff;
+    font-family: sans-serif, monospace;
+    font-size: 20px;
+    display: block;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer img {
+    height: 30px;
+}
+
+.alert {
+    font-size: 15px;
+    color: #f00;
+    text-align: left;
+    margin-bottom: -20px !important;
+    padding: 0;
+}

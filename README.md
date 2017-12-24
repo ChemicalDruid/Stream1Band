@@ -17,17 +17,17 @@ AngularJS is used to bind the view and control behaviour behind the DOM to data.
 ## Features
 
 ### Existing Features
-- None yet!
-
-### Features Left to Implement
 - View photos of band members
 - Watch video clips
 - Listen to audio clips
 - View upcoming events
 - Request event bookings for weddings, Christmas parties etc.
 - Connect via Facebook, Twitter and Youtube
-- Contact them directly via phone, email and Skype
+- Contact them directly via phone, Skype and e-mail
 - Experience responsive design with smartphone and tablet use in mind
+
+### Features Left to Implement
+- TBC
  
 ## Tech Used
 

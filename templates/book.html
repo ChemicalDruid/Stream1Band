@@ -1,0 +1,148 @@
+<monkees-nav></monkees-nav>
+
+<div class="book">
+    <div class="page">
+
+        <div class="book-intro">
+            <div class="container">
+                <h1>Can The Monkees add value to your event?</h1>
+                <p>Their 20+ years of experience allow them to rock and swing you around the clock!</p>
+                <p>Once you fill in and submit this form, we will get back to you with a quote.</p><br/>
+                <p id="discount">We offer a 15% discount if you pay by cash!</p>
+            </div>
+        </div>
+
+        <div class="book-form">
+            <div id="container">
+                <form id="BookForm" name="BookForm" ng-submit="formsubmit()" novalidate>
+                    <fieldset>
+                        <legend>Your Details</legend>
+                        <div class="row names">
+                            <div class="col-sm-6 form-group" ng-class="{'has-error': BookForm.fname.$invalid && BookForm.fname.$touched}">
+                                <label for="fname">First Name: </label>
+                                <input autofocus class="form-control" type="text" name="fname" id="fname" ng-model="user.fname" placeholder="Enter your first name" required/>
+                                <div class="col-sm-6 form-group alert" ng-messages="BookForm.fname.$error" ng-if="BookForm.fname.$touched && BookForm.fname.$invalid" role="alert">
+                                    <div ng-message="required">Required Field</div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 form-group" ng-class="{ 'has-error': BookForm.sname.$invalid && BookForm.sname.$touched}">
+                                <label for="sname">Surname: </label>
+                                <input class="form-control" type="text" name="sname" id="sname" ng-model="user.sname" placeholder="Enter your surname" required/>
+                                <div class="col-sm-6 form-group alert" ng-messages="BookForm.sname.$error" ng-if="BookForm.sname.$touched && BookForm.sname.$invalid" role="alert">
+                                    <div ng-message="required">Required Field</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row contacts">
+                            <div class="col-sm-6 form-group" ng-class="{ 'has-error': BookForm.mobile.$invalid && BookForm.mobile.$touched}">
+                                <label for="mobile">Mobile Number: </label>
+                                <input class="form-control" type="tel" name="mobile" id="mobile" ng-minlength="10" ng-maxlength="10" title="Mobile number expected to be 10 digits" ng-model="user.mobile" placeholder="Enter your mobile number" required/>
+                                <div class="col-sm-6 form-group alert" ng-messages="BookForm.mobile.$error" ng-if="BookForm.mobile.$touched && BookForm.mobile.$invalid" role="alert">
+                                    <div ng-message="required">Required Field</div>
+                                    <div ng-message="pattern">Mobile is expected to be 10 digits</div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 form-group" ng-class="{ 'has-error': BookForm.email.$invalid && BookForm.email.$touched}">
+                                <label for="email">E-mail: </label>
+                                <input class="form-control" type="email" name="email" id="email" ng-model="user.email" placeholder="jack.musiclover@email.com" required/>
+                                <div class="col-sm-6 form-group alert" ng-messages="BookForm.email.$error" ng-if="BookForm.email.$touched && BookForm.email.$invalid" role="alert">
+                                    <div ng-message="required">Required Field</div>
+                                    <div ng-pattern="required">Example: me@mail.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Your Venue</legend>
+                        <div class="row event1">
+                            <div class="col-sm-6 form-group" ng-class="{ 'has-error': BookForm.type.$invalid && BookForm.type.$touched}">
+                                <label for="type">Type: </label>
+                                <select class="form-control" id="type" ng-model="user.type">
+                                    <option value="bar">Bar</option>
+                                    <option value="conference">Conference</option>
+                                    <option value="wedding">Wedding</option>
+                                    <option value="hotel">Hotel</option>
+                                    <option value="nightclub">Nightclub</option>
+                                    <option value="festival">Festival</option>
+                                    <option value="company outing">Company Outing</option>
+                                    <option value="musicvenue">Music Venue</option>
+                                    <option value="private">Private</option>
+                                </select>
+                                <div class="col-sm-6 form-group alert" ng-messages="BookForm.type.$error" ng-if="BookForm.type.$touched && BookForm.type.$invalid" role="alert">
+                                    <div ng-message="required">Required Field</div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 form-group" ng-class="{ 'has-error': BookForm.capacity.$invalid && BookForm.capacity.$touched}">
+                                <label for="capacity">*Capacity (# of people)</label>
+                                <select class="form-control" id="capacity" ng-model="user.capacity">
+                                    <option value="50">up to 50</option>
+                                    <option value="100">51-100</option>
+                                    <option value="200">101-200</option>
+                                    <option value="500">201-500</option>
+                                    <option value="501">501+</option>
+                                </select>
+                                <div class="col-sm-6 form-group alert" ng-messages="BookForm.capacity.$error" ng-if="BookForm.capacity.$touched && BookForm.capacity.$invalid" role="alert">
+                                    <div ng-message="required">Required Field</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row event2">
+                            <div class="col-sm-6 form-group" ng-class="{ 'has-error': BookForm.date.$invalid && BookForm.date.$touched}">
+
+                                <label for="date">Date: </label>
+                                <input class="form-control datepicker" type="date" name="date" id="date" ng-model="user.date" required/>
+                                <div class="col-sm-6 form-group alert" ng-messages="BookForm.date.$error" ng-if="BookForm.date.$touched && BookForm.date.$invalid" role="alert">
+                                    <div ng-message="required">Required Field</div>
+                                    <div ng-message="pattern">Manual format is DD/MM/YYYY</div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 form-group" ng-class="{ 'has-error': BookForm.location.$invalid && BookForm.location.$touched}">
+                                <label for="location">Location: </label>
+                                <input class="form-control" type="text" name="location" id="location" ng-model="user.location" placeholder="Location" required/>
+                                <div class="col-sm-6 form-group alert" ng-messages="BookForm.location.$error" ng-if="BookForm.location.$touched && BookForm.location.$invalid" role="alert">
+                                    <div ng-message="required">Required Field</div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="">Payment Type</legend>
+                        <div class="row">
+                            <div class="col-sm-6 form-group radio" ng-class="{ 'has-error': BookForm.payment.$invalid && BookForm.payment.$touched}">
+                                <input type="radio" name="payment" id="visa" ng-model="visa" ng-required/>
+                                <label id="visa" for="visa">Visa</label>
+                            </div>
+                            <div class="col-sm-6 form-group radio">
+                                <input type="radio" name="payment" id="mastercard" ng-model="mastercard" ng-required/>
+                                <label for="mastercard">MasterCard</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 form-group radio">
+                                <input type="radio" name="payment" id="paypal" ng-model="paypal" ng-required/>
+                                <label id="paypal" for="paypal">PayPal</label>
+                            </div>
+                            <div class="col-sm-6 form-group radio radio">
+                                <input type="radio" name="payment" id="cash" ng-model="cash" ng-required/>
+                                <label for="cash">Cash, with 15% discount</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <button ng-disabled="BookForm.$invalid" ng-click="submitted=true" class="btn btn-default" id="submit" type="submit" value="submit">Submit
+                    </button>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<monkees-footer></monkees-footer>

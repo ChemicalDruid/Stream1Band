@@ -1,0 +1,29 @@
+<monkees-nav></monkees-nav>
+
+<div class="gigs">
+    <div class="header">
+        <div class="container">
+            <h1>{{ headerTitle }}</h1>
+            <p id="subhead">
+                {{ headerSubtitle }}<br/>
+                {{ headerSubtitleInfo }}
+            </p>
+            <a href="#/book" class="btn btn-default btn-lg book">BOOK NOW</a>
+        </div>
+    </div>
+    <div class="calendar">
+        <div class="box" ng-repeat="event in myEvents">
+            <a ng-href="#/gigs/{{$index}}">
+                <div class="date"><h3>{{ event.when | date: "fullDate"}}</h3></div>
+                <div class="where"><h2>{{ event.where }}</h2></div>
+                <div class="when"><br/><h4>{{ event.when | date: "shortTime"}}</h4></div>
+            </a>
+        </div>
+    </div>
+    <div id="gigs-end">
+        <p>{{ endTitle }}</p>
+        <a href="#/book" class="btn btn-default btn-lg book">BOOK NOW</a>
+    </div>
+</div>
+
+<monkees-footer></monkees-footer>

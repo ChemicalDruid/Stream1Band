@@ -1,0 +1,13 @@
+<h1>{{ photoTitle }}</h1>
+<p>
+    {{ photoSubtitle }}
+    </br>
+    {{ photoSubtitleInfo }}
+</p>
+<div class="photogrid">
+    <div class="photo" ng-repeat="monkee in myMonkee">
+        <a ng-href="#/music/{{$index}}">
+            <img ng-src="{{ monkee.image }}" alt="monkee image" target="_self"/>
+        </a>
+    </div>
+</div>

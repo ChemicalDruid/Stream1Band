@@ -1,0 +1,29 @@
+<monkees-nav></monkees-nav>
+
+<div class="event">
+
+    <div class="details">
+        <div class="note">
+            <div class="when"><h3>{{ myEvent.when | date: "fullDate"}}</h3></div>
+            <div class="where"><h1>{{ myEvent.where }}</h1></div>
+            <div class="time"><h3>{{ myEvent.when | date: "shortTime"}}</h3></div>
+        </div>
+        <div class="map">
+            <iframe ng-src="{{ myEventMap }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="plugs">
+            <h3>Going there?</h3>
+            <div class="plug">
+                <a href="https://www.facebook.com/TheMonkees/" target="_blank">
+                    <div id="fb"></div>
+                </a>
+                <a href="https://twitter.com/TheMonkees" target="_blank">
+                    <div id="twit"></div>
+                </a>
+            </div>
+            <a href="#/gigs" class="btn btn-default btn-lg btn-gig">BACK TO GIGS</a>
+        </div>
+    </div>
+</div>
+
+<monkees-footer></monkees-footer>

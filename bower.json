@@ -3,9 +3,9 @@
   "description": "",
   "main": "index.js",
   "authors": [
-    "ChemicalDruid"
+    "Athanasios Platsas <sakis.platsas@gmail.com>"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/ChemicalDruid/Stream1Band",
   "ignore": [
     "**/.*",

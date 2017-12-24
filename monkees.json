@@ -1,0 +1,50 @@
+[
+	{ 
+		"title" : "Davy Jones",
+		"image" : "/media/img/dj.jpg"
+	},
+	{ 
+		"title" : "Micky Dolenz",
+		"image" : "/media/img/md.jpg"
+	},
+	{ 
+		"title" : "Michael Nesmith",
+		"image" : "/media/img/mn.jpg"
+	},
+	{ 
+		"title" : "Peter Tork",
+		"image" : "/media/img/pt.jpg"
+	},
+	{
+		"title" : "The Monkees in 1966",
+		"image" : "https://upload.wikimedia.org/wikipedia/commons/8/8f/The_Monkees_1966.JPG"
+	},
+	{
+		"title" : "The Monkees' chairs",
+		"image" : "http://images5.fanpop.com/image/photos/29500000/The-Monkees-the-monkees-29574282-1280-885.jpg"
+	},
+	{
+		"title" : "The Monkees in 1967",
+		"image" : "https://upload.wikimedia.org/wikipedia/commons/8/83/The_Monkees_March_1967.jpg"
+	},
+	{
+		"title" : "The Monkees on set",
+		"image" : "http://www.tvhistorypod.com/wp-content/uploads/2015/03/the-monkees-1966-publicity-photo.jpg"
+	},
+	{
+		"title" : "The Monkees in a 1969 TV special",
+		"image" : "https://upload.wikimedia.org/wikipedia/commons/5/51/Monkees_Television_special_1969.jpg"
+	},
+	{
+		"title" : "The Monkees in a car",
+		"image" : "https://upload.wikimedia.org/wikipedia/commons/e/ee/The_Monkees_1967.jpg"
+	},
+	{
+		"title" : "The Monkees in safari hats",
+		"image" : "http://www.monkees.net/wp-content/uploads/2012/03/monkees-60s-65.jpg"
+	},
+	{ 
+		"title" : "The Monkees on stage",
+		"image" : "https://pmcvariety.files.wordpress.com/2016/02/monkees.jpg"
+	}
+]

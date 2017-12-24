@@ -1,0 +1,38 @@
+<monkees-nav></monkees-nav>
+
+<div class="music">
+    <div id="musictop" class="music-top">
+        <div class="header">
+            <h1>{{headerTitle}}</h1>
+            <h4>{{ headerSubtitle }}</h4>
+        </div>
+        <div class="paragraph">
+            <p>In 1965, over 400 people responded to an ad seeking young men for a new television show about a rock group. The Monkees, starring Davy Jones, Micky Dolenz, Michael Nesmith, and Peter Tork premiered on 12 September, 1966, and audiences adored the humorous antics of the band. Though made for TV, The Monkees had real-life hits and struggled against their "Pre-Fab Four" image. Some of their best-loved and number one hits included Neil Diamond's "I'm a Believer" and "Last Train to Clarksville." More successful singles followed, including another Neil Diamond song, "Little Bit Me, Little Bit You," Gerry Goffin and Carole King's "Pleasant Valley Sunday", and "Daydream Believer" by John Stewart of the Kingston Trio.</p>
+            <p>The Monkees' use of double bass and drums in a strong rhythm section supports a lead section of trumpets, trombones or similar brass instruments. This combination leads to feet-tapping or head-nodding as a response to bring everyone around it to a happy dancing and rocking the night away!</p>
+            <p>They are always happy to let their hair down and play their hearts out for you and your guests anywhere - just use the booking form and check when they are available!</p>
+        </div>
+        <div class="about-buttons">
+            <a class="btn btn-default book" href="#/book">BOOK NOW</a>
+        </div>
+    </div>
+    <div class="bigbar">
+        <ul class="nav nav-tabs nav-justified">
+            <li><a data-toggle="tab" data-target="#ourmusic">Music</a></li>
+            <li><a data-toggle="tab" data-target="#video">Videos</a></li>
+            <li><a data-toggle="tab" data-target="#photos">Photos</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="ourmusic" class="tab-pane fade">
+                <music-content></music-content>
+            </div>
+            <div id="video" class="tab-pane fade">
+                <video-content></video-content>
+            </div>
+            <div id="photos" class="tab-pane fade in active">
+                <photos-content></photos-content>
+            </div>
+        </div>
+    </div>
+</div>
+
+<monkees-footer></monkees-footer>
